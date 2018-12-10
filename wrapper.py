@@ -47,6 +47,7 @@ class Markit:
                     .text)
         return response[0]["Symbol"]
 
+
 if __name__=="__main__":
     stock=Markit("ATVI")
     print(stock.quote())
